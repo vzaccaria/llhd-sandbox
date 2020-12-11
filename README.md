@@ -1,3 +1,6 @@
+> Docker file for building an [LLHD](http://www.llhd.io/) development
+> environment
+
 # Setting up
 
 To setup the docker container:
@@ -13,7 +16,7 @@ into llhd).
 # Compiling the example verilog file
 
 The example file is a masked implementation of the keccak sbox (original version
-in [the MaskVerif repo](https://gitlab.com/benjgregoire/maskverif):
+in [the MaskVerif repo](https://gitlab.com/benjgregoire/maskverif)):
 
 ```
 make keccak.llhd
